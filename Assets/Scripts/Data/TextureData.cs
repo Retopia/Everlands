@@ -52,7 +52,7 @@ public class TextureData : UpdatableData {
       public Color tint;
       [Range(0, 1)]
       public float tintStrength;
-      [Range(0, 1)]
+      [Range(0, 1.3f)]
       public float startHeight;
       [Range(0, 1)]
       public float blendStrength;
